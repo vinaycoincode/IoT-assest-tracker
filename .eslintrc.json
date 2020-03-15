@@ -1,0 +1,32 @@
+{
+    "plugins": [
+        "react",
+        "babel"
+    ],
+    "extends": [
+        "google",
+        "plugin:react/recommended"
+    ],
+    "parser": "babel-eslint",
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module"
+    },
+    "rules": {
+        "require-jsdoc": [
+            "error",
+            {
+                "require": {
+                    "FunctionDeclaration": false,
+                    "MethodDefinition": false,
+                    "ClassDeclaration": false,
+                    "ArrowFunctionExpression": false,
+                    "FunctionExpression": false
+                }
+            }
+        ],
+        "no-invalid-this": 0,
+        "babel/no-invalid-this": 2,
+        "max-len": [2, 100, 4]
+    }
+}

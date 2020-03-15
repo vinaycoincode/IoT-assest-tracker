@@ -1,0 +1,19 @@
+.home h1 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  font-family: 'Abel', sans-serif;
+}
+
+.home h2 {
+  font-family: 'Abel', sans-serif;
+  font-size: 25px;
+}
+
+.description {
+  padding-top: 25px;
+  margin-bottom: 25px;
+}
+
+.home p {
+  font-family: 'Roboto', sans-serif;
+}
